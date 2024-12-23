@@ -17,7 +17,7 @@ public class Evenodd {
         //Evenodd edd=new Evenodd();
         //edd.check(num);
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter a number to check Even or ODd");
+        System.out.println("Enter a number to check Even or Odd");
         int num=scanner.nextInt();
         Evenodd edd=new Evenodd();
         edd.check(num);
