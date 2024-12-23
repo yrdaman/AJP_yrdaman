@@ -1,0 +1,23 @@
+Types of methods
+1. simple method:
+	void call(){
+
+}
+2.method with return types{
+	String msg(){
+	 return "Hello,GM";
+}
+int value(){
+ return 1;
+}
+}
+
+3.Method with parameters
+int length ,breadth;
+int area(int l,int b){
+	length =l;
+breadth=b;
+int area =length*breadth;
+System.out.println(area);
+return area;
+}
