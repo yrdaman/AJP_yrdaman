@@ -1,7 +1,7 @@
 package Day7_AJP;
 
 import java.util.Scanner;
-
+// some issue with the code
 public class Primenum {
 	static void isPrime(int target) {
 		
@@ -20,7 +20,10 @@ public class Primenum {
 	}
 	public static void main(String[] args) {
 		System.out.println("Enter no :");
-		isPrime(3);
+		
+		Scanner sc = new Scanner(System.in);
+		isPrime(sc.nextInt());
+		sc.close();
 
 	}
 

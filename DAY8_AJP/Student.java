@@ -1,5 +1,4 @@
 package DAY8_AJP;
-
 public class Student {
 	int sid;
 	String name;
@@ -12,6 +11,7 @@ public class Student {
 		System.out.println(id+" "+n);
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Student stu =new Student();
 		Student stu1 =new Student(1,"YRDAMAN");

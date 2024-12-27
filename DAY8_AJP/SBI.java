@@ -1,4 +1,4 @@
-
+package DAY8_AJP;
 
 public class SBI extends RBI {
 	String address;
@@ -16,7 +16,7 @@ public class SBI extends RBI {
 		this.manager_name = manager_name;
 		System.out.println("SBI Details : "+address+","+no_ofEmployees+","+manager_name);
 	}
-
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		SBI sbi=new SBI(2003, "SBI", "National", "Hyderabad", 50, "YRDAMAN");
 

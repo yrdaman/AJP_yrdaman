@@ -15,10 +15,14 @@ public class Dowhile {
 		 System.out.println("Sum of Even Number in range :"+range+" = "+sum);
 		 
 	 }
+	 
+	
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter range : ");
 		sumofEven(sc.nextInt());
+		sc.close();
 	}
 
 }

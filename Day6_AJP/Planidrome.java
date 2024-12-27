@@ -26,7 +26,7 @@ public class Planidrome {
 		
 		int original=sc.nextInt();
 		palindrome(original);
-
+		sc.close();
 	}
 
 }

@@ -6,7 +6,8 @@ public class Factorial {
 	 	 static void Fact() {
 	 		 int i=1,n,o;
 	 		 
-	 		 Scanner sc =new Scanner(System.in);
+	 		 
+			Scanner sc =new Scanner(System.in);
 	 		 n=sc.nextInt();
 	 		 o=n;
 	 			while(n!=0) {
@@ -14,10 +15,12 @@ public class Factorial {
 	 				n--;
 	 			}
 	 			System.out.println("Factorial of "+o+" "+i);
+				 sc.close();
 	 	 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Fact();
+
 
 }
 

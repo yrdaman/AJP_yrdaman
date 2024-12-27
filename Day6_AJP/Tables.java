@@ -13,6 +13,7 @@ public class Tables {
 			System.out.println(i+"X"+n+"= "+i*n);
 			n++;
 		}
+		sc.close();
 	}
 	public static void main(String[] args) {
 		printTable();

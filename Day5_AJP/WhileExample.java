@@ -1,4 +1,4 @@
-package ajp;
+package Day5_AJP;
 
 public class WhileExample {
 	static int sum(int limit) {

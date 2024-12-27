@@ -17,8 +17,10 @@ public class Pattern {
 	 }
 	public static void main(String[] args) {
 		System.out.println("Enter Number : ");
+		
 		Scanner sc =new Scanner(System.in);
 		patterns(sc.nextInt());
+		sc.close();
 	}
 
 }

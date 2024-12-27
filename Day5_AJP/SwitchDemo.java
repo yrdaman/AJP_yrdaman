@@ -1,4 +1,4 @@
-package ajp;
+package Day5_AJP;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class SwitchDemo {
 		// TODO Auto-generated method stub
 		String num;
 		System.out.println("Enter number");
+		
 		Scanner sc = new Scanner(System.in);
 		num=sc.next();
 		switch(num) {
@@ -28,7 +29,9 @@ public class SwitchDemo {
 			break;
 		default:
 			System.out.println("Invalid Char");
+
 		} 
+		sc.close();
 	}
 
 }

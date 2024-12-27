@@ -1,4 +1,4 @@
-package ajp;
+package Day5_AJP;
 
 import java.util.Scanner;
 
@@ -60,6 +60,7 @@ public class Results {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Enter 4 subject marks here: ");
+		
 		Scanner sc =new Scanner(System.in);
 		Results r=new Results();
 		r.sub1=sc.nextInt();
@@ -67,7 +68,7 @@ public class Results {
 		r.sub3=sc.nextInt();
 		r.sub4=sc.nextInt();
 		r.findResult();
-		
+		sc.close();
 	}
 
 }
