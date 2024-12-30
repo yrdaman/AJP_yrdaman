@@ -8,7 +8,7 @@ public class Primes {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a range: ");
 		int range = sc.nextInt();
-		boolean flag = true;
+		
 		System.out.println("Factors of " + range + " are:");
 		for (int i = 1; i <= range; i++) {
 			if (range % i == 0) {
